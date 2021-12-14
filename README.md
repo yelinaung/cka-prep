@@ -1,6 +1,6 @@
 ### Etcd Cluster
 
-- Starting the etcd cluster with [docker-compose](https://docs.docker.com/compose/)
+- Starting the etcd cluster with [docker-compose](https://docs.docker.com/compose/).
 
 ```bash
 docker-compose -f etcd_docker_compose.yaml up -d
@@ -19,7 +19,7 @@ ddd26b9cd916   bitnami/etcd:3   "/opt/bitnami/script…"   56 minutes ago   Up 1
 1567c84a8ef7   bitnami/etcd:3   "/opt/bitnami/script…"   56 minutes ago   Up 1 second   2380/tcp, 0.0.0.0:4379->2379/tcp, :::4379->2379/tcp   cka-prep_etcd3_1
 ```
 
-- Download etcd from [Github release page]*(https://github.com/etcd-io/etcd/releases)*. And put `etcdctl` into `$PATH`.
+- Download etcd from [Github release page](https://github.com/etcd-io/etcd/releases). And put `etcdctl` into `$PATH`.
 - Set etcd endpoints by 
 
 ```bash
